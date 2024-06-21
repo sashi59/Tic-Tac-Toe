@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true"
+
+    android:gravity="center"
+    android:background="#333"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Tic Tac Toe"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <GridLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:columnCount="3">
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/btn_shape"
+            android:id="@+id/btn1"
+            android:onClick="checkPermission"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+
+            android:layout_marginLeft="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/btn_shape"
+            android:id="@+id/btn2"
+            android:onClick="checkPermission"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:background="@drawable/btn_shape"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:onClick="checkPermission"
+            android:layout_marginBottom="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:background="@drawable/btn_shape"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:onClick="checkPermission"
+            android:layout_marginBottom="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn5"
+            android:background="@drawable/btn_shape"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:onClick="checkPermission"
+            android:layout_marginBottom="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn6"
+            android:background="@drawable/btn_shape"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:onClick="checkPermission"
+            android:layout_marginBottom="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_shape"
+            android:onClick="checkPermission"
+            android:layout_marginLeft="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_shape"
+            android:onClick="checkPermission"
+            android:layout_marginLeft="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn9"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_shape"
+            android:layout_marginLeft="10dp"
+            android:onClick="checkPermission"
+            android:layout_marginBottom="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+    </GridLayout>
+
+
+</LinearLayout>
+</layout>
